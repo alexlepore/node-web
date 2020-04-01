@@ -1,0 +1,16 @@
+body.dark-background{
+    background: black;
+    color: white;
+}
+
+.custom-switch{
+    margin-top: 10px;
+}
+
+.custom-control-input{
+    padding-top: 20px;
+}
+
+.custom-control-label{
+    font-size: 30px;
+}

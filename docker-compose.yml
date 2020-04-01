@@ -1,0 +1,38 @@
+version: "3.7"
+services:
+  #####################################
+  ########## REACT CONTAINER ##########
+  #####################################
+  client: 
+    container_name: client
+    restart: always
+    build: ./client
+    ports:
+      - "80:80"
+    depends_on:
+      - server
+  #####################################
+  ##### EXPRESS SERVER CONTAINER ######
+  #####################################
+  server:
+    container_name: server
+    build: ./server
+    restart: always
+    depends_on:
+      - db
+    ports:
+      - "3001:3001"
+    command: npm run start
+    volumes:
+      - ./server/src:/app/server/src
+  #####################################
+  ######### MONGODB CONTAINER #########
+  #####################################
+  db:
+    image: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes: 
+      - "/var/lib/mongodb:/data/db"
+    command: mongod --auth

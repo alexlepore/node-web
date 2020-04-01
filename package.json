@@ -1,0 +1,28 @@
+{
+  "name": "portfolio_2k20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-client": "npm run start --prefix client/",
+    "dev-server": "npm run dev --prefix server/",
+    "dev-start": "concurrently \"npm run dev-client\" \"npm run dev-server\"",
+    "build": "npm run build --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlepore/node-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexlepore/node-web/issues"
+  },
+  "homepage": "https://github.com/alexlepore/node-web#readme",
+  "dependencies": {
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.2"
+  }
+}

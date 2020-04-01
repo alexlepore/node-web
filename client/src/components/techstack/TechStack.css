@@ -1,0 +1,83 @@
+/* Innermost Div */
+#tech-div{
+    padding: 150px 0px 150px 0px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/* "Tech" Text*/
+h1.start{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/* Outermost Div */
+#techStack{
+    background-color: #e9ecef;
+}
+
+.tech-dark{
+   background-color: slateblue !important;
+}
+
+@media (max-width: 1175px) {
+    #tech-div{
+        padding: 100px 0px 100px 0px;
+        font-family: 'Paytone One', sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 975px) {
+    #tech-div{
+        padding: 75px 0px 75px 0px;
+        font-family: 'Paytone One', sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 775px) {
+    #tech-div{
+        padding: 50px 0px 50px 0px;
+        font-family: 'Paytone One', sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 575px) {
+    #tech-div{
+        padding: 20px 0px 20px 0px;
+        font-family: 'Paytone One', sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+}
+
+@media(max-width: 375px) {
+    #tech-div{
+        padding: 0px;
+        font-family: 'Paytone One', sans-serif;
+        font-size: 30px;
+        font-weight: 900;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+}

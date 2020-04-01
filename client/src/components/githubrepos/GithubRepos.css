@@ -1,0 +1,15 @@
+#portfolio-title{
+    padding: 80px 0px 20px 0px;
+}
+
+.dark-cards{
+    background-color: indianred;
+    color:white;
+}
+
+@media(max-width: 375px) {
+    #portfolio-text{
+        height: 100vh;
+        padding: 40px 0px 0px 0px;
+    }
+}

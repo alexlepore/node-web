@@ -1,0 +1,9 @@
+.verticalHeight{
+    height: 100vh
+}
+
+@media(max-width: 375px) {
+    .verticalHeight{
+        height: auto !important;
+    }    
+}

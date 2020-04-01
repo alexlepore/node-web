@@ -1,0 +1,21 @@
+.cards-dark{
+    background-color: indianred;
+    color: black;
+}
+
+.modals-dark{
+    background-color: cornflowerblue;
+    color: black;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 575px) {
+    .w-75{
+        width: 100% !important;
+    }
+}
+
+
