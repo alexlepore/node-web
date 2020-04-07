@@ -7,3 +7,9 @@
         height: auto !important;
     }    
 }
+
+@media(max-height: 750px){
+    .verticalHeight{
+        height: auto !important;
+    }
+}
