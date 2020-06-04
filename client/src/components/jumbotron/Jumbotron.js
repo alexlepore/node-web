@@ -59,9 +59,10 @@ class Jumbotron extends Component{
     render(){
         return(
             <div className="row h-100 align-items-center">
-                <div className="col-sm-6 text-center">
+                <div className="col-md-6 text-center">
                     <div className="jumbotron" id="jumbo-home">
                         <h1 className="display-4">Alex Lepore</h1>
+                        <h5>Fullstack Web Developer</h5>
                         <hr className="my-4" />
                         <div className="row">
                             <div className="col-sm-12">
@@ -70,26 +71,22 @@ class Jumbotron extends Component{
                         </div>
                         <br></br>
                         <div className="row">
-                            <div className="col-sm-12 text-center">
-                                <div className="row">
-                                    <div className="col-sm-3">
-                                        <a href="/" target=""><i className="fas fa-home fa-lg"></i></a>
-                                    </div>
-                                    <div className="col-sm-3">
-                                    <a href="/experience" target="_blank"><i className="fa fa-file fa-lg"></i></a>
-                                    </div>
-                                    <div className="col-sm-3">
-                                    <a href="/portfolio" target="_blank"><i className="fa fa-code fa-lg"></i></a>
-                                    </div>
-                                    <div className="col-sm-3">
-                                        <a href="/blog" target="_blank"><i className="fa fa-comment fa-lg"></i></a>
-                                    </div>
-                                </div>
+                            <div className="col-md-3 col-sm-3 col-xs-3">
+                                <a href="/" target=""><i className="fas fa-home fa-lg"></i></a>
+                            </div>
+                            <div className="col-md-3 col-sm-3 col-xs-3">
+                            <a href="/experience" target="_blank"><i className="fa fa-file fa-lg"></i></a>
+                            </div>
+                            <div className="col-md-3 col-sm-3 col-xs-3">
+                            <a href="/portfolio" target="_blank"><i className="fa fa-code fa-lg"></i></a>
+                            </div>
+                            <div className="col-md-3 col-sm-3 col-xs-3">
+                                <a href="/blog" target="_blank"><i className="fa fa-comment fa-lg"></i></a>
                             </div>
                         </div>
                     </div>    
                 </div>
-                <div className="col-sm-6 indexBio">
+                <div className="col-md-6 indexBio">
                     <p>
                     <span className="cursor">$</span>
                     <span className="cursor" id="blinking-cursor">_</span>

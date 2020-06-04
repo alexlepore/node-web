@@ -50,7 +50,7 @@ class Experience extends Component {
         return(
             <div className="row h-100" id="experience">
                 <div className="col-sm-12">
-                    <h1 className="text-left" id="title">
+                    <h1 className="text-left display-4" id="title">
                         Experience
                     </h1>
                     <h4>World Congress</h4>

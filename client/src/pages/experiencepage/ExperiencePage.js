@@ -8,7 +8,8 @@ import Footer from '../../components/footer/Footer';
 class BlogPage extends Component {
     render(){
         const styles={
-            padding: "80px 0px 60px 0px"
+            padding: "80px 0px 60px 0px",
+            color: "cornflowerblue"
         }
         return(
             <div>
@@ -18,7 +19,7 @@ class BlogPage extends Component {
                 </div>
                 <div className="row text-center">
                     <div className="col-sm-12">
-                        <h1 style={styles}>Site Architecture + Past Experience</h1>
+                        <h1 style={styles} className="display-4">Site Architecture</h1>
                     </div>
                 </div>
                 <div className="container">
