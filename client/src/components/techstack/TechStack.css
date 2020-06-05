@@ -21,10 +21,11 @@ h1.start{
 /* Outermost Div */
 #techStack{
     background-color: #e9ecef;
+    border-radius: 10px;
 }
 
 .tech-dark{
-   background-color: slateblue !important;
+   background-color: cornflowerblue !important;
 }
 
 @media (max-width: 1175px) {

@@ -7,14 +7,18 @@
 }
 
 /* Links Change Color */
+.jumbo-dark a, a:link{
+    color: mintcream
+}
 
 a, a:link { 
-    color: cornflowerblue;
+    color: steelblue;
 }
   
 a:hover{
-    color: lime; 
+    color: rgb(28, 212, 151); 
 }
+
 
 /*Blinking Cursor*/
 .cursor{

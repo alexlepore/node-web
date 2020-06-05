@@ -4,16 +4,20 @@ footer{
     margin-top: 20px;
 }
 
+footer a{
+    color: steelblue
+}
+
 footer.dark{
-    background-color: slateblue;
+    background-color: cornflowerblue;
 }
 
 footer.dark a{
-    color:black;
+    color:mintcream;
 }
 
 footer.dark a:hover{
-    color: lime; 
+    color: rgb(28, 212, 151); 
 }
 
 /* Small Devices (landscape phones, 576px or less) */
