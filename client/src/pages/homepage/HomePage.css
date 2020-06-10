@@ -2,14 +2,14 @@
     height: 100vh
 }
 
-@media(max-width: 375px) {
-    .verticalHeight{
-        height: auto !important;
-    }    
-}
-
 @media(max-height: 750px){
     .verticalHeight{
         height: auto !important;
+    }
+}
+
+@media(min-width: 1200px){
+    .wide-margin{
+        margin-bottom: 40px;
     }
 }
