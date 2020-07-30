@@ -26,7 +26,7 @@ class Footer extends Component{
         }
 
         if(themeStorage === "false"){
-            document.querySelector("hr").classList.remove("hr-dark");
+            document.querySelector("footer").classList.remove("dark")
         }
     }
 
@@ -53,7 +53,7 @@ class Footer extends Component{
                     </div>
                     <div className="col-xs-6 col-sm-3 col-md-3 footer-mobile-helper">
                         <p><a href="/experience" target="_blank">Architecture + Experience</a></p>
-                        <p><a href="/portfolio" target="_blank">Portfolio</a></p>
+                        <p><a href="/portfolio" target="_blank">Repositories</a></p>
                         <p><a href="/blog" target="_blank">Blog</a></p>
 
                     </div>

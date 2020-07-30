@@ -58,50 +58,31 @@ class Jumbotron extends Component{
 
     render(){
         return(
-            <div className="row h-100 align-items-center">
-                <div className="col-md-6 text-center">
+            <div className="row h-100 align-items-center justify-content-center">
+                <div className="col-md-8 text-center">
                     <div className="jumbotron" id="jumbo-home">
                         <h1 className="display-4">Alex Lepore</h1>
                         <h5>Fullstack Web Developer</h5>
                         <hr className="my-4" />
                         <div className="row">
                             <div className="col-sm-12">
-                                <a href="#techStack" target="" className="jump-link"><i className="fa fa-arrow-down fa-2x animated bounce"></i></a>
+                                <a href="#about-intro" target="" className="jump-link"><i className="fa fa-arrow-down fa-2x animated bounce"></i></a>
                             </div>
                         </div>
                         <br></br>
+
                         <div className="row">
-                            <div className="col-md-3 col-sm-3 col-xs-3">
-                                <a href="/" target=""><i className="fas fa-home fa-lg"></i></a>
+                            <div className="col-4">
+                                <a href="/" target=""><i className="fas fa-home fa-2x"></i></a>
                             </div>
-                            <div className="col-md-3 col-sm-3 col-xs-3">
-                            <a href="/experience" target="_blank"><i className="fa fa-file fa-lg"></i></a>
+                            <div className="col-4">
+                                <a href="https://github.com/alexlepore" target="_blank"><i className="fab fa-github-square fa-2x"></i></a>
                             </div>
-                            <div className="col-md-3 col-sm-3 col-xs-3">
-                            <a href="/portfolio" target="_blank"><i className="fa fa-code fa-lg"></i></a>
-                            </div>
-                            <div className="col-md-3 col-sm-3 col-xs-3">
-                                <a href="/blog" target="_blank"><i className="fa fa-comment fa-lg"></i></a>
+                            <div className="col-4">
+                                <a href="https://www.linkedin.com/in/alex-lepore-448321176/" target="_blank"><i className="fab fa-linkedin-in fa-2x"></i></a>
                             </div>
                         </div>
                     </div>    
-                </div>
-                <div className="col-md-6 indexBio">
-                    <p>
-                    <span className="cursor">$</span>
-                    <span className="cursor" id="blinking-cursor">_</span>
-                    Welcome! I am a developer native to Massachusetts.
-                    At the very core, I write code because I truly enjoy it.
-                    Programming allows me to utilize both creativity and reason.
-                    These two characteristics aid me in designing systems that both function well and look pretty.
-                    </p>
-                    <p>
-                    While, I would like to consider myself technology agnostic, 
-                    I tend to gravitate towards scripting languages and web technologies.  
-                    I believe in writing code that is modular in design, but not abstract enough to be considered confusing.
-                    Ultimately, I aim to write code that follows best practices. I also believe in using the best technology where applicable.
-                    Have a look around, thanks!
-                    </p>
                 </div>
             </div>
         )

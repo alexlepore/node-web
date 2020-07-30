@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './HomePage.css';
 import DarkMode from '../../components/darkmode/DarkMode';
 import Jumbotron from '../../components/jumbotron/Jumbotron';
+import AboutIntro from '../../components/aboutintro/AboutIntro';
 import TechStack from '../../components/techstack/TechStack';
 import GifSection from '../../components/gifsection/GifSection';
 import Footer from '../../components/footer/Footer';
@@ -15,6 +16,9 @@ class HomePage extends Component {
                 </div>
                 <div className="container verticalHeight">
                     <Jumbotron />
+                </div>
+                <div className="container verticalHeight">
+                    <AboutIntro />
                 </div>
                 <div className="container verticalHeight">
                     <TechStack />

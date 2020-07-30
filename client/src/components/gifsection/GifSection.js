@@ -29,16 +29,13 @@ class GifSection extends Component{
                 <div className="col-sm-6 col-xs-6 API-text">
                     <br></br>
                     <p>
-                        As the animation depicts, I built this site in the MERN stack. Besides the fact it was first stack I learned, it has been 
-                        my favorite to use so far. I have dabbled in the LAMP and few other languages, but I mainly focus on higher level
-                        programming languages, like JavaScript. 
+                        I built this website using the MERN stack as listed in the marquee.
+
+                        If you would like to learn more about this sites architecture follow to the Architecture + Experience page.
                     </p>
                     <p>
-                        I also enjoy building and consuming web API's varying in complexity, purpose, and technology types.
-                        While, building this platform, I was able to successfully query data from a Graphql API for the first time!
-                        I take my work seriously, but I also try not forget to have fun with it! The Gifs are powered by the last 
-                        10 Gifs from Giphys Trending Section and is updated periodically every 3 hours. And yes, I use jQuery with React. I don't use it for everything, just some of 
-                        the heavy lifting.
+                        I am fully capable of working with complex third party APIS. For this web app I used resources from the Giphy and Github APIs.
+                        The gifs section is set to automatically update every three hours. 
                     </p>
                 </div>
                 <div className="col-md-6 col-sm-6 col-xs-12">

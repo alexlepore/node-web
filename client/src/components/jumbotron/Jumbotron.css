@@ -1,9 +1,13 @@
 .jumbo-dark{
-    background-color: slateblue;
+    background-color: cornflowerblue;
 }
 
 .hr-dark{
     background-color: aqua;
+}
+
+.jump-link{
+    font-size: 28px;
 }
 
 /* Links Change Color */
@@ -18,7 +22,6 @@ a, a:link {
 a:hover{
     color: rgb(28, 212, 151); 
 }
-
 
 /*Blinking Cursor*/
 .cursor{

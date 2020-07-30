@@ -1,0 +1,76 @@
+.indexBio{
+    font-size: 24px;
+}
+
+/*Blinking Cursor*/
+.cursor{
+    color: lime; 
+    font-size: 28px;
+}
+
+.cursor:hover{
+    color: cornflowerblue;
+}
+
+#blinking-cursor{
+    animation: blinkingCursor 1s steps(2) infinite
+}
+
+.animated { 
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    animation-iteration-count: infinite;
+ }
+
+/*******/
+@keyframes blinkingCursor {
+    0% { visibility: hidden;}
+    100% { visibility: visible;}
+}
+
+/********/
+@media (max-width: 767px) {
+    .indexBio{
+        font-size: 24px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    body,html{
+        height: 50%;
+    }
+    .indexBio{
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 475px) {
+    body,html{
+        height: 50%;
+    }
+    .indexBio{
+        font-size: 20px;
+    }
+}
+
+
+@media(max-width: 375px) {
+    body,html{
+        height: 50%;
+    }
+    .indexBio{
+        font-size: 18px;
+    }
+    .jump-link{
+        font-size: 22px;
+    }
+    .indexBio{
+        height: 100vh;
+    }
+}
+
+
+
