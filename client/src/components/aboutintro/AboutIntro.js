@@ -51,7 +51,7 @@ class AboutIntro extends Component{
                         <span className="cursor" id="blinking-cursor">_</span>
                         I am Full Stack Developer native to Massachusetts.
                         I build websites that are not only fast and secure, but are also user-friendly.
-                        I am javascript developer by default, but I use other programming languages when necessary. 
+                        I am a javascript developer by default, but I use other programming languages when necessary. 
                         I enjoy solving complex problems using technologies either cloud-based, server-side or client-side.
                         </p>
                         <p>

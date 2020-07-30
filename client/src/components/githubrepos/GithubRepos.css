@@ -7,6 +7,10 @@
     color:white;
 }
 
+#portfolio-text p {
+    font-size: 22px;
+}
+
 @media(max-width: 375px) {
     #portfolio-text{
         height: 100vh;

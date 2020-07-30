@@ -130,10 +130,6 @@ class GithubRepos extends Component{
                         <p>
                             These are the last 15 repositories from my Github Account.
                             The projects listed here vary in complexity, purpose and programming language.
-                            Most of the projects listed here have acted as exercises. 
-                            Some of the projects are old portfolios I wrote when I was just getting started. 
-                            Others have acted as tools that I use to accomplish other things. 
-                            All have made me a better developer.
                         </p>
                     </div>
                 </div>
