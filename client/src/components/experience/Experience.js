@@ -73,7 +73,16 @@ class Experience extends Component {
                     <p style={pstyles}>12/17 - I graduated from a 6-month program teaching students how to code.
                     The program mainly focused on Javascript and topics related to Javascript including:
                     <br />
-                    HTML/CSS/JS/jQuery/Git/Node.js/Express/React/Bootstrap/Heroku/Comp. Sci. Fundamentals/Java/REST/AJAX/MySQL/Git Workflows
+                    <br />
+                    <ul>
+                        <li>HTML, CSS, JS, jQuery</li>
+                        <li>git, Node.js, Express.js</li>
+                        <li>React, Bootstrap, Heroku</li>
+                        <li>Paired Programming, Git Workflows</li>
+                        <li>Computer Science Fundamentals</li>
+                        <li>Java, REST, MVC, Ajax</li>
+                        <li>MySQL, MongoDB, ORM, Sequelize</li>
+                    </ul>
                     </p>
                 </div>
             </div>

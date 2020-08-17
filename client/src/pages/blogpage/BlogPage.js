@@ -4,6 +4,7 @@ import DarkMode from '../../components/darkmode/DarkMode';
 import SideNav from '../../components/sidenav/SideNav';
 import DevBanner from '../../components/devbanner/DevBanner';
 import BlogEntries from '../../components/blogentries/BlogEntries';
+import NextArrow from '../../components/nextarrow/NextArrow';
 import Footer from '../../components/footer/Footer';
 
 class BlogPage extends Component {
@@ -18,6 +19,7 @@ class BlogPage extends Component {
                 <div className="container verticalHeight">
                     <BlogEntries />
                 </div>
+                <NextArrow />
                 <Footer />
             </div>
         )

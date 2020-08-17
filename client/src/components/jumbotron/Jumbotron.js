@@ -76,10 +76,10 @@ class Jumbotron extends Component{
                                 <a href="/" target=""><i className="fas fa-home fa-2x"></i></a>
                             </div>
                             <div className="col-4">
-                                <a href="https://github.com/alexlepore" target="_blank"><i className="fab fa-github-square fa-2x"></i></a>
+                                <a href="https://github.com/alexlepore" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square fa-2x"></i></a>
                             </div>
                             <div className="col-4">
-                                <a href="https://www.linkedin.com/in/alex-lepore-448321176/" target="_blank"><i className="fab fa-linkedin-in fa-2x"></i></a>
+                                <a href="https://www.linkedin.com/in/alex-lepore-448321176/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in fa-2x"></i></a>
                             </div>
                         </div>
                     </div>    

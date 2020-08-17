@@ -5,6 +5,7 @@ import Jumbotron from '../../components/jumbotron/Jumbotron';
 import AboutIntro from '../../components/aboutintro/AboutIntro';
 import TechStack from '../../components/techstack/TechStack';
 import GifSection from '../../components/gifsection/GifSection';
+import NextArrow from '../../components/nextarrow/NextArrow';
 import Footer from '../../components/footer/Footer';
 
 class HomePage extends Component {
@@ -24,6 +25,7 @@ class HomePage extends Component {
                     <TechStack />
                     <GifSection />
                 </div>
+                <NextArrow />
                 <Footer />
             </div>
         )

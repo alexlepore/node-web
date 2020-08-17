@@ -3,6 +3,7 @@ import DarkMode from '../../components/darkmode/DarkMode';
 import SideNav from '../../components/sidenav/SideNav';
 import Architecture from '../../components/architecture/Architecture';
 import Experience from '../../components/experience/Experience';
+import NextArrow from '../../components/nextarrow/NextArrow';
 import Footer from '../../components/footer/Footer';
 
 class BlogPage extends Component {
@@ -28,6 +29,7 @@ class BlogPage extends Component {
                 <div className="container">
                     <Experience />
                 </div>
+                <NextArrow />
                 <Footer />
             </div>
         )
