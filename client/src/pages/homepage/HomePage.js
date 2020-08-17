@@ -7,6 +7,7 @@ import TechStack from '../../components/techstack/TechStack';
 import GifSection from '../../components/gifsection/GifSection';
 import NextArrow from '../../components/nextarrow/NextArrow';
 import Footer from '../../components/footer/Footer';
+import MiniApps from '../../components/miniapps/MiniApps';
 
 class HomePage extends Component {
     render(){
@@ -24,6 +25,9 @@ class HomePage extends Component {
                 <div className="container verticalHeight">
                     <TechStack />
                     <GifSection />
+                </div>
+                <div className="container verticalHeight">
+                    <MiniApps />
                 </div>
                 <NextArrow />
                 <Footer />
