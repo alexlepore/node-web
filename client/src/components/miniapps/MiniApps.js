@@ -14,7 +14,7 @@ class MiniApps extends Component{
                     </div>
                     <br />
                     <div className="row">
-                        <div className="col-lg-4 col-sm-12 col-xs-12">
+                        <div className="col-lg-6 col-sm-12 col-xs-12">
                             <div className="card">
                                 <img className="card-img-top" src={Friends}/>
                                 <div className="card-body">
