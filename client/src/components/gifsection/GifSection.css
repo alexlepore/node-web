@@ -12,7 +12,7 @@
 @media (min-width: 1199px) {
     #giphySection{
         overflow-y: auto;
-        height: 450px !important;
+        height: 400px !important;
     }
 }
 
