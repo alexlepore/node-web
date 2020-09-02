@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import Friends from './friends.png';
+import Friends from './images/friends.png';
+import Code from './images/code.jpg';
 
 class MiniApps extends Component{
 
@@ -16,10 +17,19 @@ class MiniApps extends Component{
                     <div className="row">
                         <div className="col-lg-6 col-sm-12 col-xs-12">
                             <div className="card">
-                                <img className="card-img-top" src={Friends}/>
+                                <img className="card-img-top" src={Friends} alt="friends app" class="img-fluid"/>
                                 <div className="card-body">
                                     <h5 className="card-title"></h5>
-                                    <a href="https://hidden-ridge-95848.herokuapp.com/" target="_blank" className="btn btn-primary">Friend Survey</a>
+                                    <a href="https://hidden-ridge-95848.herokuapp.com/" target="_blank" className="btn btn-outline-primary" text-white>Friend Survey</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-sm-12 col-xs-12">
+                            <div className="card">
+                                <img className="card-img-top" src={Code} alt="code" class="img-fluid"/>
+                                <div className="card-body">
+                                    <h5 className="card-title"></h5>
+                                    <a href="#" target="_blank" className="btn btn-outline-primary" text-white>Coming soon</a>
                                 </div>
                             </div>
                         </div>

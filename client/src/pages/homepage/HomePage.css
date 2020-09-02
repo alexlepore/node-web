@@ -7,9 +7,3 @@
         height: auto !important;
     }
 }
-
-@media(min-width: 1200px){
-    .wide-margin{
-        margin-bottom: 40px;
-    }
-}
