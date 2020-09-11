@@ -34,7 +34,7 @@ class NextArrow extends Component{
 
     render(){
         return(
-            <div className="row h-25">
+            <div className="row h-50">
                 <div className="col-md-12 text-center pr-5">
                     <h1 className="font-weight-bold font-italic animate__animated animate__pulse animate__infinite">Click Here</h1>
                     <a href={this.state.href}><i class="fa fa-arrow-right fa-5x animate__animated animate__jackInTheBox animate__slower animate__infinite" aria-hidden="true"></i></a>

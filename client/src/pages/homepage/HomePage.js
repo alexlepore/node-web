@@ -26,7 +26,7 @@ class HomePage extends Component {
                     <TechStack />
                     <GifSection />
                 </div>
-                <div className="container verticalHeight">
+                <div className="container">
                     <MiniApps />
                 </div>
                 <NextArrow />
