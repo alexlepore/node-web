@@ -11,8 +11,8 @@
 }
 
 /* Links Change Color */
-.jumbo-dark a, a:link{
-    color: mintcream
+.jumbo-dark a{
+    color: mintcream !important;
 }
 
 a, a:link { 

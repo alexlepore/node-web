@@ -6,18 +6,21 @@ Only needs to be called when new repos are made.
 const MongoClient = require("mongodb").MongoClient;
 const axios = require("axios");
 const dotenv = require("dotenv");
-dotenv.config({path:__dirname+'/../.env'});
-const user = process.env.user;
-const password = process.env.userpwd;
-const deeB = process.env.DB_HOST;
+dotenv.config({path: "./../.env"});
 
-const url = `mongodb://${user}:${password}@0.0.0.0:27017/?authMechanism=SCRAM-SHA-1&authSource=${deeB}`;
+//const user = process.env.user;
+//const password = process.env.userpwd;
+
+const database = process.env.DB_HOST;
+const token = process.env.GITHUB_TOKEN;
+
+//const url = `mongodb://${user}:${password}@0.0.0.0:27017/?authMechanism=SCRAM-SHA-1&authSource=${deeB}`;
+const url = `mongodb://0.0.0.0:27017/${database}`
 
 //github api v4 graph ql query build
 const githubUrl = "https://api.github.com/graphql";
-const token = process.env.GITHUB_TOKEN;
 const oauth = {
-	Authorization: 'bearer ' + token
+	Authorization: `bearer ${token}`
 }
 const query = `{
 	user(login: "alexlepore") {
@@ -34,7 +37,7 @@ const query = `{
 	}
 }`
 
-MongoClient.connect(url, function(err, db) {
+MongoClient.connect(url, {useNewUrlParser: true, useUnifiedTopology: true}, function(err, db) {
     if (err) throw err;
     var dbs = db.db(process.env.DB_HOST);
 

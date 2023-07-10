@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "**COMMENT**": "if not using docker, localhost = server",
-  "proxy": "http://server:3001/",
+  "proxy": "http://localhost:3001/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
     "@popperjs/core": "^2.2.1",

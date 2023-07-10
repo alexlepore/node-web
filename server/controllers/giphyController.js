@@ -2,7 +2,7 @@ const db = require("../utils/db");
 const axios = require("axios");
 const chalk = require("chalk");
 const dotenv = require("dotenv");
-dotenv.config({path:__dirname+'/../.env'});
+dotenv.config();
 
 module.exports = {
     findAll: function(req, res){
